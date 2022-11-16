@@ -59,7 +59,7 @@ function nextSequence() {
     setTimeout(function(){
     playSound(gamePattern[i]);
     $("#" + gamePattern[i]).fadeOut(100).fadeIn(100);
-}, i * 750);
+}, i * 500);
 }
 }
 
